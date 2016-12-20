@@ -1,0 +1,75 @@
+<!--
+InnerBorder  
+author:licza@ufida.com
+-->
+<PUBLIC:COMPONENT> 
+ <attach event="ondocumentready" for="element" handler="buildBorder" />
+ <attach event="ondetach" for="element" handler="cleanIt" />
+<script>
+	function buildBorder(){
+		if(IS_IE7 || IS_IE8){
+			try{
+				var dt = createBorder();
+				//this.appendChild(dt);//上边框
+				
+				var dl = createBorder();
+				dl.style.width="1px";
+				dl.style.height=element.clientHeight;
+				//this.appendChild(dl);//左边框
+				
+				var dr = createBorder();
+				dr.style.width="1px";
+				dr.style.height=element.clientHeight -1 ;
+				dr.style.left="";
+				dr.style.right="0px";
+				dr.style.backgroundImage="url("+window.themePath+"/ui/basic/images/v_dotta.png)";
+				if(!IS_IE7){
+					dr.setAttribute("haswidth","1");
+					dr.setAttribute("hasheight","1");
+					this.appendChild(dr);//右边框
+				}
+				
+				var db = createBorder();
+				db.style.top="";
+				db.style.bottom="0px";
+				db.style.backgroundImage="url("+window.themePath+"/ui/basic/images/h_dotta.png)";
+				if(!IS_IE7){
+					db.setAttribute("haswidth","1");
+					db.setAttribute("hasheight","1");			
+					this.appendChild(db);//下边框
+				}		
+			}catch(e){
+				//避免特殊异常
+			}
+		}
+	}
+	function cleanIt(){
+		if(IS_IE7 || IS_IE8){
+			var nodes = element.childNodes;
+			var arr = new Array();
+	
+			for(var i =0;i< nodes.length;i++){
+				 if(nodes[i].biubiu) {
+					 arr.push(nodes[i]);
+				 }
+			}
+			for(var i = 0; i < arr.length;i++){
+				element.removeChild(arr[i]);
+			}
+		}
+	}
+
+	function createBorder(){
+		var di = document.createElement("div");
+		di.biubiu="1";
+		di.style.position="absolute";
+		di.style.height="1px";
+		di.style.width="100%";
+		//di.style.backgroundColor="#CCCCCC";
+		di.style.top="0px";
+		di.outline="red";
+		return di;
+	}
+</script>
+
+</PUBLIC:COMPONENT>

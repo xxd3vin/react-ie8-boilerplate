@@ -1,0 +1,215 @@
+.pagination_paginationbar {  
+	position:relative;
+	clear:both;
+	top: 0px;
+	left: 0px;
+	z-Index:100;
+	height:32px;
+	width:100%;
+}	
+
+
+.pagination_paginationbar .pageinationbgleft{
+	position:relative;
+	float:right;
+	width:10px;
+	height:22px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/bg_left.png") no-repeat;
+}
+
+.pagination_paginationbar .pageinationbgright{
+	position:relative;
+	float:right;
+	width:10px;
+	height:22px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/right.png") no-repeat;
+}
+
+.pagination_paginationbar .pageinationbgcenter{
+	position:relative;
+	float:left;
+	height:22px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/center.png") repeat-x;
+	margin-top:5px;
+	margin-left:13px;
+}
+
+.pagination_paginationbar .selectedleft{
+	position:relative;
+	float:left;
+	width:16px;
+	height:31px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/selected_left.png") no-repeat;
+	top:-3px;
+}
+
+.pagination_paginationbar .unselectedleft{
+	position:relative;
+	float:left;
+	width:0px;
+	height:22px;
+}
+
+.pagination_paginationbar .selectedright{
+	position:relative;
+	float:left;
+	width:16px;
+	height:31px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/selected_right.png") no-repeat;
+	top:-3px;
+}
+
+.pagination_paginationbar .unselectedright{
+	position:relative;
+	float:left;
+	width:0px;
+	height:22px;
+}
+
+.pagination_paginationbar .selectedcenter{
+	position:relative;
+	float:left;
+	height:31px;
+	color:#ffffff;
+	text-align:center;
+	line-height:25px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/selected_center.png") repeat-x;
+	top:-3px;
+	font-weight:bold;
+}
+
+.pagination_paginationbar .unselectedcenter{
+	position:relative;
+	float:left;
+	height:22px;
+	color:#999999;
+	text-align:center;
+	line-height:22px;
+	margin-left:7px;
+	margin-right:7px;
+	font-weight:normal;
+}
+
+.pagination_paginationbar .selected{
+	position:relative;
+	float:left;
+	width:31px;
+	height:31px;
+	color:#ffffff;
+	text-align:center;
+	line-height:25px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/selected.png") no-repeat;
+	top:-3px;
+	font-weight:bold;
+}
+
+.pagination_paginationbar .unselected{
+	position:relative;
+	float:left;
+	height:22px;
+	color:#999999;
+	text-align:center;
+	line-height:22px;
+	margin-left:7px;
+	margin-right:7px;
+	font-weight:normal;
+}
+
+.pagination_paginationbar .pagefirst{
+	position:relative;
+	float:left;
+	height:22px;
+	color:#999999;
+	text-align:center;
+	line-height:22px;
+	margin-right:7px;
+	font-weight:normal;
+}
+
+.pagination_paginationbar .pagelast{
+	position:relative;
+	float:left;
+	height:22px;
+	color:#999999;
+	text-align:center;
+	line-height:22px;
+	margin-left:7px;
+	font-weight:normal;
+}
+
+.pagination_paginationbar .smartcut{
+	position:relative;
+	float:left;
+	width:1px;
+	height:22px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/cut02.png") no-repeat;
+	background-position:center center;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.pagination_paginationbar .pre{
+	position:relative;
+	float:left;
+	width:25px;
+	height:22px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/pre.png") no-repeat;
+	left:-10px;
+}
+
+.pagination_paginationbar .next{
+	position:relative;
+	float:left;
+	width:25px;
+	height:22px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/next.png") no-repeat;
+	left:10px;
+}
+
+.pagination_paginationbar .preover{
+	position:relative;
+	float:left;
+	width:25px;
+	height:22px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/pre_over.png") no-repeat;
+	left:-10px;
+}
+
+.pagination_paginationbar .nextover{
+	position:relative;
+	float:left;
+	width:25px;
+	height:22px;
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/ctrl/pagination/images/next_over.png") no-repeat;
+	left:10px;
+}
+
+.pagination_paginationbar .paginationPanel{
+	position:relative;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.pagination_paginationbar .paginationMessage{
+	position:relative;
+	height:100%;
+	/*不同语种所需宽度不同，因此不设置宽度
+	width:300px;*/
+	float:right;
+	line-height:30px;
+}
+
+.pagination_paginationbar .simple_paginationMessage{
+	position:relative;
+	height:100%;
+	float:right;
+	line-height:30px;
+}
+
+.pagination_paginationbar .paginationText{
+	position:relative;
+	height:100%;
+	float:left;
+	color:#999999;
+}

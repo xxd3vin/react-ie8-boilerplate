@@ -1,0 +1,295 @@
+.billnav{
+	list-style:none;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+.billnav div.billItem_default_bx{
+	background:url("images/billnav/billItem_default_bx.png") no-repeat;
+}
+.billnav div.billItem_default_jk{
+	background:url("images/billnav/billItem_default_jk.png") no-repeat;
+}
+.billnav div.billItem_E1100301{
+	background:url("images/billnav/billItem_E1100301.png") no-repeat;
+}
+.billnav div.billItem_E1100303{
+	background:url("images/billnav/billItem_E1100303.png") no-repeat;
+}
+.billnav div.billItem_E1100304{
+	background:url("images/billnav/billItem_E1100304.png") no-repeat;
+}
+.billnav div.billItem_E1100305{
+	background:url("images/billnav/billItem_E1100305.png") no-repeat;
+}
+.billnav div.billItem_E1100306{
+	background:url("images/billnav/billItem_E1100306.png") no-repeat;
+}
+.billnav div.billItem_E1100302{
+	background:url("images/billnav/billItem_E1100302.png") no-repeat;
+}
+.billnav div.billItem_E1100202{
+	background:url("images/billnav/billItem_E1100202.png") no-repeat;
+}
+.billnav div.billItem_E1100201{
+	background:url("images/billnav/billItem_E1100201.png") no-repeat;
+}
+.billnav div.billItem_E1100401{
+	background:url("images/billnav/billItem_E1100401.png") no-repeat;
+}
+.billnav .lineDiv{
+	padding:5px 0px 5px 2px;
+	min-height:16px;
+}
+.clear{
+	clear:both;
+	height:0px;
+}
+.portallet_scan_icon{
+	float:left;
+	height:11px;
+	width:11px;
+	background:url("images/portallet/icon_common.png");
+}
+.billItem_left_icon{
+	float:left;
+	height:16px;
+	width: 16px;
+	margin-right: 15px;
+}
+.billItem_right_img_blue{
+	background:url("images/billnav/exp_icon.png") no-repeat;
+	height:15px;
+	line-height:15px;
+	width:28px;
+	float:right;
+	color:#0992c1;
+	text-align:center;
+}
+.billItem_right_img_orange{
+	background:url("images/billnav/orange.png") no-repeat;
+	height:16px;
+	width:28px;
+	float:right;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+.billItem_right_img_green{
+	background:url("images/billnav/green.png") no-repeat;
+	height:16px;
+	width:28px;
+	float:right;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+
+ul.billnav li.relnode0{
+	background:url("images/billnav/file_0.png") no-repeat;
+	padding:2px 0px 2px 26px;
+	margin:5px 0px 5px 0px;
+}
+ul.billnav li.relnode1{
+	background:url("images/billnav/file_1.png") no-repeat;
+	padding:2px 0px 2px 26px;
+	margin:5px 0px 5px 0px;
+}
+ul.billnav li.relnode2{
+	background:url("images/billnav/file_2.png") no-repeat;
+	padding:2px 0px 2px 26px;
+	margin:5px 0px 5px 0px;
+}
+ul.billnav li.relnode3{
+	background:url("images/billnav/file_3.png") no-repeat;
+	padding:2px 0px 2px 26px;
+	margin:5px 0px 5px 0px;
+}
+ul.billnav li.relnode4{
+	background:url("images/billnav/file_4.png") no-repeat;
+	padding:2px 0px 2px 26px;
+	margin:5px 0px 5px 0px;
+}
+
+ul.billnav li.relnode5{
+	background:url("images/billnav/file_5.png") no-repeat;
+	padding:2px 0px 2px 26px;
+	margin:5px 0px 5px 0px;
+}
+
+
+
+ul.billnav a:hover{
+	font-family: arial,simsun;
+	font-size: 12px;
+	font-weight:bold;
+	color: #666666;
+	text-decoration:underline;
+}
+ul.billnav a{
+	font-family: arial,simsun;
+	font-size: 12px;
+	font-weight:bold;
+	color: #0992C1;
+	text-decoration:none;
+}
+ul.billnav a.a_clicked{
+	color: #666666;
+}
+a.myBillLinkClicked{
+	text-decoration:none;
+	color:#363636;
+	
+}
+div.billnamelabel {
+    float: left;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #666666;
+    font-family: ����,sans-serif;
+    font-size: 17px;
+    
+   /*width: 56px;*/
+}
+
+
+
+.event_type {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width:196px;
+	background-color: #fefdff;
+	border: 0px;
+}
+
+.event_type_header {
+	margin-top:26px;
+	font-size:10pt;
+	/*font-family:tahoma; */
+	text-align:left;
+	font-weight: bold;
+	color: #3696D2;
+	margin-left: 15px;
+}
+
+.event_type_dot_line {
+	background-image: url("../imgs/dot_line.png");
+	background-position: 0px 0px;
+	position: relative;
+	overflow: hidden;
+	background-repeat: repeat-x;
+	height:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.event_type_img_1,
+.event_type_img_2,
+.event_type_img_3,
+.event_type_img_4 {
+	background-position: 0px 0px;
+	position: relative;
+	float:left;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	height:16px;
+	width:16px;
+	margin-right:5px;
+}
+.event_type_img_1 {
+	background-image: url("images/erleft_0.png");
+}
+.event_type_img_2 {
+	background-image: url("../images/mycalendar/task.png");
+}
+.event_type_img_3 {
+	background-image: url("../images/mycalendar/meeting.png");
+}
+.event_type_img_4 {
+	background-image: url("../images/mycalendar/personal.png");
+}
+
+/*-----------自定义checkbox和radiobox start-----------*/
+	
+/*	wrapper divs */
+.custom-checkbox, .custom-radio { 
+	position: relative;
+	margin-left: 15px;
+	margin-bottom: 13px;
+ }
+	
+/* input, label positioning */
+.custom-checkbox input, 
+.custom-radio input {
+	/*display: none;*/
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	z-index: 0;
+	border:0px;
+	width:0px;
+	height:0px;
+}
+
+.custom-checkbox label, 
+.custom-radio label {
+	display: block;
+	position: relative;
+	z-index: 1;
+	font-size:12px;
+	padding-right: 1em;
+	/*line-height: 20px; */
+	padding: 0 0 0 26px;
+	cursor: pointer;
+	height:15px;
+	width:110px;
+	/*font-family: 微软雅黑,宋体*/
+}
+
+/* states */
+.custom-checkbox label, .custom-radio label {
+	background-position: 0px 5px;
+	background: url(images/box/checkbox.png) no-repeat;
+	
+}
+
+.custom-checkbox label.hover,
+.custom-checkbox label.focus,
+.custom-radio label.hover,
+.custom-radio label.focus {
+	background: url(images/box/checkbox.png) no-repeat;
+}
+
+.custom-checkbox label.checked, 
+.custom-radio label.checked {
+	background: url(images/box/checkbox_select.png) no-repeat;
+}
+
+.custom-checkbox label.checkedHover, 
+.custom-checkbox label.checkedFocus {
+	background: url(images/box/checkbox_select.png) no-repeat;
+}
+
+/*-----------自定义checkbox和radiobox end-----------*/
+
+
+
+
+/*****************/
+div.erlabel {
+    color: black;
+    float: left;
+    font-weight: bold;
+    white-space: nowrap;
+   /*width: 56px;*/
+}
+
+div.floatright {
+	float: right;
+}
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<xml>
+    <exp-text>
+    </exp-text>
+    <show-message>
+    </show-message>
+    <exp-stack>        <![CDATA[]]>
+    </exp-stack>
+    <success>true</success>
+    <contents>
+        <content>            <![CDATA[<?xml version="1.0" encoding='UTF-8'?>
+<e>
+    <as>
+        <a>
+            <k>bill_max_precision_client</k>
+            <v>                <CD>2</CD>
+            </v>
+        </a>
+    </as>
+    <isPlug>false</isPlug>
+    <pagemeta>
+        <widget id="billnav">
+        </widget>
+        <widget id="main">
+            <dataset id="yerbill">
+                <data>                    <CD><dataset id="yerbill" focusIndex="-1" currentkey="MASTER_KEY1" editable="false" isCleared="false" randomRowIndex="15">
+    <dsps>
+    </dsps>
+    <rowsets>
+    <rowset pagecount="1" pagesize="15" recordcount="0" pageindex="0" keyvalue="-1">
+    <rs pageindex="0" changed="false">
+</rs>
+    </rowset>
+    <rowset pagecount="4" pagesize="15" recordcount="46" pageindex="0" keyvalue="MASTER_KEY1">
+    <rs pageindex="0" changed="true">
+<r id="0yerbill$1" ><nrm>1001H210000001GUZZT7,。,D02016103100339080,1477843200000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F0-Cxx-D35,F0-Cxx-D35,F0-Cxx-D35,。,%E5%94%AE%E6%A5%BC%E7%89%B9%E6%AE%8A%E5%BA%94%E6%94%B6%E5%8D%95,-1,888.00,。,1001H210000001GUZZT7,-1,F0,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$2" ><nrm>1001H210000001GUZS68,。,D02016103000339078,1477756800000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F0-Cxx-D35,F0-Cxx-D35,F0-Cxx-D35,。,%E5%94%AE%E6%A5%BC%E7%89%B9%E6%AE%8A%E5%BA%94%E6%94%B6%E5%8D%95,-1,444.00,。,1001H210000001GUZS68,-1,F0,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$3" ><nrm>1001H210000001GUYOZG,。,D12016102800457598,1477584000000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F1-Cxx-D50,F1-Cxx-D50,F1-Cxx-D50,。,%E8%87%AA%E5%88%B6%E5%BA%94%E4%BB%98%E5%8D%95,-1,55.00,。,1001H210000001GUYOZG,-1,F1,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$4" ><nrm>1001H210000001GUYOYN,。,D02016102800339077,1477584000000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F0-Cxx-D35,F0-Cxx-D35,F0-Cxx-D35,。,%E5%94%AE%E6%A5%BC%E7%89%B9%E6%AE%8A%E5%BA%94%E6%94%B6%E5%8D%95,-1,6666.00,。,1001H210000001GUYOYN,-1,F0,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$5" ><nrm>1001H210000001GUYOXB,。,D02016102800339076,1477584000000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F0-Cxx-D35,F0-Cxx-D35,F0-Cxx-D35,。,%E5%94%AE%E6%A5%BC%E7%89%B9%E6%AE%8A%E5%BA%94%E6%94%B6%E5%8D%95,-1,77.00,。,1001H210000001GUYOXB,-1,F0,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$6" ><nrm>1001H210000001GUYOS1,。,D02016102800339075,1477584000000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F0-Cxx-D35,F0-Cxx-D35,F0-Cxx-D35,。,%E5%94%AE%E6%A5%BC%E7%89%B9%E6%AE%8A%E5%BA%94%E6%94%B6%E5%8D%95,-1,66.00,。,1001H210000001GUYOS1,-1,F0,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$7" ><nrm>1001ZZ10000001GUR7GV,。,264X20161027000812,1477497600000,0001H21000000002M8ZM,%E8%B0%AD%E8%8B%A5%E5%85%81,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1CD,%E5%A2%9E%E5%9F%8E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E7%89%A9%E4%B8%9A%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%28%E5%A2%9E%E5%9F%8E%29,。,。,264X-Cxx-0035,264X-Cxx-0035,264X-Cxx-0035,。,%E8%B4%B9%E7%94%A8%E5%88%86%E6%91%8A%E5%8D%95,3,200.00,。,1001ZZ10000001GUR7GV,1,bx,。,。,。,。,%E4%BF%9D%E5%AD%98,%E6%8F%90%E4%BA%A4,。,。,。,。,。,。,。,1002Z0100000000001K1,%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$8" ><nrm>1001ZZ10000001GUR7GP,。,264X20161027000811,1477497600000,0001H21000000002M8ZM,%E8%B0%AD%E8%8B%A5%E5%85%81,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H2100000000022YK,%E9%9B%86%E5%9B%A2%E6%80%BB%E9%83%A8,。,。,264X-Cxx-0035,264X-Cxx-0035,264X-Cxx-0035,。,%E8%B4%B9%E7%94%A8%E5%88%86%E6%91%8A%E5%8D%95,-1,100.00,。,1001ZZ10000001GUR7GP,1,bx,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$9" ><nrm>1001ZZ10000001GUR7GE,。,264X20161027000810,1477497600000,0001H21000000002M8ZM,%E8%B0%AD%E8%8B%A5%E5%85%81,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H2100000000022YK,%E9%9B%86%E5%9B%A2%E6%80%BB%E9%83%A8,。,。,264X-Cxx-0035,264X-Cxx-0035,264X-Cxx-0035,。,%E8%B4%B9%E7%94%A8%E5%88%86%E6%91%8A%E5%8D%95,-1,12.00,。,1001ZZ10000001GUR7GE,1,bx,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,%E8%B4%B9%E7%94%A8%E7%AE%A1%E7%90%86,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$10" ><nrm>1001H210000001GUY0XD,。,D12016102700457594,1477497600000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F1-Cxx-D31,F1-Cxx-D31,F1-Cxx-D31,。,SSC%E6%88%90%E6%9C%AC%E5%BA%94%E4%BB%98%E5%8D%95,-1,11.00,。,1001H210000001GUY0XD,-1,F1,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$11" ><nrm>1001H210000001GUXXYU,。,D12016102700457591,1477497600000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F1-Cxx-D31,F1-Cxx-D31,F1-Cxx-D31,。,SSC%E6%88%90%E6%9C%AC%E5%BA%94%E4%BB%98%E5%8D%95,-1,156.00,。,1001H210000001GUXXYU,-1,F1,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$12" ><nrm>1001H210000001GUXXRO,。,D02016102700339072,1477497600000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F0-Cxx-D35,F0-Cxx-D35,F0-Cxx-D35,。,%E5%94%AE%E6%A5%BC%E7%89%B9%E6%AE%8A%E5%BA%94%E6%94%B6%E5%8D%95,-1,123.00,。,1001H210000001GUXXRO,-1,F0,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$13" ><nrm>1001H210000001GUXWZI,。,D12016102700457590,1477497600000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H2100000000022LJ,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,。,。,F1-Cxx-D50,F1-Cxx-D50,F1-Cxx-D50,。,%E8%87%AA%E5%88%B6%E5%BA%94%E4%BB%98%E5%8D%95,-1,100.00,。,1001H210000001GUXWZI,-1,F1,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$14" ><nrm>1001H210000001GUXOHS,。,D12016102700457585,1477497600000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F1-Cxx-D31,F1-Cxx-D31,F1-Cxx-D31,。,SSC%E6%88%90%E6%9C%AC%E5%BA%94%E4%BB%98%E5%8D%95,-1,123.00,。,1001H210000001GUXOHS,-1,F1,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+<r id="0yerbill$15" ><nrm>1001H210000001GUXGIL,。,FKSQ201610272703,1477497600000,1001H21000000009ODLV,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,36D1-Cxx-11,36D1-Cxx-11,36D1-Cxx-11,。,%E4%BB%98%E6%AC%BE%E7%94%B3%E8%AF%B7,3,2222.00,。,1001H210000001GUXGIL,2,36D1,。,。,。,。,%E5%BE%85%E5%AE%A1%E6%89%B9,%E6%8F%90%E4%BA%A4,。,。,。,。,。,。,。,1002Z0100000000001K1,%E5%BA%94%E4%BB%98%E7%B3%BB%E7%BB%9F,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+</rs>
+    </rowset>
+    </rowsets>
+</dataset>
+</CD>
+                </data>
+            </dataset>
+        </widget>
+        <cc>            <CD>{"widgets":[{"comps":[{"id":"grid6295"}],"id":"main"}]}</CD>
+        </cc>
+        <beforeExec>            <CD>if(pageUI.getWidget('main')){pageUI.getWidget('main').getDataset('yerbill').setChangedContext({"fields":[{"id":"total"}]});}
+</CD>
+        </beforeExec>
+        <exec>            <CD>$("#makebill_waitCount_div").html("46");
+$("#expExpenseBillTypeHtml").html("<li id=\"li_expBillTypeCondi\"  style=\"display:block\"><div class=\"expcondi_type_div\">单据类型</div><div id=\"expense_billType_showDiv_all_link\"  style=\"color:#FFFFFF;background-color:#028FD1\" onclick=\"javascript:queryExpenseBillByType(this,'');\">全部</div><div id=\"expense_billType_showDiv_1_link\"   onclick=\"javascript:queryExpenseBillByType(this,'FIV-Cxx-FP2');\">其他发票&nbsp;2</div><div id=\"expense_billType_showDiv_2_link\"   onclick=\"javascript:queryExpenseBillByType(this,'FP0');\">成本发票&nbsp;2</div><div id=\"expense_billType_showDiv_3_link\"   onclick=\"javascript:queryExpenseBillByType(this,'36D1-Cxx-11');\">付款申请&nbsp;5</div><div id=\"expense_billType_showDiv_4_link\"   onclick=\"javascript:queryExpenseBillByType(this,'261X-Cxx-31');\">差旅费申请单&nbsp;1</div><div id=\"expense_billType_showDiv_5_link\"   onclick=\"javascript:queryExpenseBillByType(this,'D1');\">成本物料采购应付单&nbsp;2</div></li><li id=\"li_expBillTypeCondi\" class=\"\" ><div  style=\"clear:both\"><div class=\"expcondi_type_div\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div id=\"expense_billType_showDiv_6_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0032');\">薪资分摊单&nbsp;2</div><div id=\"expense_billType_showDiv_7_link\"   onclick=\"javascript:queryExpenseBillByType(this,'263X-Cxx-0001');\">借款单&nbsp;1</div><div id=\"expense_billType_showDiv_8_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0001');\">差旅费报销单&nbsp;3</div><div id=\"expense_billType_showDiv_9_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0002');\">员工费用报销单&nbsp;2</div><div id=\"expense_billType_showDiv_10_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0035');\">费用分摊单&nbsp;5</div><div id=\"expense_billType_showDiv_11_link\"   onclick=\"javascript:queryExpenseBillByType(this,'show');\">其他&nbsp;21</div></li><li id=\"li_expBillTypeCondi_display\" style=\"display:none;\"><div  style=\"clear:both\"><div class=\"expcondi_type_div\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div id=\"expense_billType_showDiv_12_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F1-Cxx-D50');\">自制应付单&nbsp;2</div><div id=\"expense_billType_showDiv_13_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0038');\">外币差旅报销单&nbsp;1</div><div id=\"expense_billType_showDiv_14_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F2-Cxx-D50');\">自制收款单&nbsp;1</div><div id=\"expense_billType_showDiv_15_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F1-Cxx-D31');\">SSC成本应付单&nbsp;9</div><div id=\"expense_billType_showDiv_16_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F1-Cxx-D34');\">费用采购应付单&nbsp;1</div><div id=\"expense_billType_showDiv_17_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F0-Cxx-D35');\">售楼特殊应收单&nbsp;7</div></li><li id=\"li_expBillTypeCondi_display\" style=\"display:none;\"><div  style=\"clear:both\"></li><li><div  style=\"clear:both;height:8px;\">&nbsp;</div></li>");expBillNavCss();
+$("#expenseAllDataCount").html("共46条数据");
+</CD>
+        </exec>
+    </pagemeta>
+</e>
+]]>
+        </content>
+    </contents>
+</xml>

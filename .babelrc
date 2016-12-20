@@ -1,10 +1,12 @@
 {
-    "presets": ["es2015", "react", "stage-2"],
-    "plugins": ["transform-object-rest-spread"],
-    "comments": false,
-    "env": {
-        "production" : {
-            "presets": ["react-optimize"]
-        }
+  "presets": ["react", "es2015", "stage-0"],
+  "plugins": [
+    "transform-es3-member-expression-literals",
+    "transform-es3-property-literals"
+  ],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
     }
+  }
 }

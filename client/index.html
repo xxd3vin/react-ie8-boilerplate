@@ -1,0 +1,40 @@
+<script>
+// Cookie copy from browser of a real login user.
+// Without these cookies, will redirect to portal login page.
+(function setNCFakeCookie() {
+  //document.cookie = "p_userId=tanruoyun";
+  var COOKIE_STR = 'SERVERADDR=http://10.10.169.63:80; p_userId=tanruoyun; isMaxWindow=N; p_logoutflag=""; i18next=en; JSESSIONID=0000JgGIIzOPKtQv1Id9wrLo8OK:ncMem01; user_org=0001H210000000000IGL; pk_unit=0001H210000000000IGL; datasource=nc633g_SSC; userid=1001H21000000009ODLV; usercode=tanruoyun; TH_K1=webclassic; LA_K1=simpchn; token=00000158064a040e74616e72756f79756e331c35467e14cc96bbec4334ae077a786d67286b';
+  var cookie_arr = COOKIE_STR.split(';');
+  var i;
+  for (i in cookie_arr) {
+    document.cookie = cookie_arr[i];
+  }
+})();
+
+// Jump to 报帐人门户 by default.
+window.onload = function countDown() {
+  var timer = 5/*second*/;
+  var intervalId = setInterval(function () {
+    if (--timer === 0) {
+      clearInterval(intervalId);
+      window.location.href = '/portal/pt/home/view?pageModule=weberm&pageName=MyExpBillPortlet';
+    }
+    document.getElementById('time').innerHTML = timer;
+  }, 1000);
+};
+</script>
+
+<style>
+#time {
+  font-size: 32px;
+  color: red;
+}
+</style>
+
+<div>
+  <p><span id="time">5</span>秒钟之后，自动跳转到“报帐人门户”</p>
+</div>
+
+<li><a href="/portal/pt/home/view?pageModule=weberm&pageName=MyExpBillPortlet">报账人门户</a></li>
+<li><a href="/portal/pt/home/view?pageModule=ssctptassgin&pageName=daibanPortal">作业人门户</a></li>
+<li><a href="/portal/pt/home/view?pageModule=ssctptassgin&pageName=SSC">共享服务 - 任务处理 - 作业任务处理</a></li>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<xml>
+    <exp-text>
+    </exp-text>
+    <show-message>
+    </show-message>
+    <exp-stack>        <![CDATA[]]>
+    </exp-stack>
+    <success>true</success>
+    <contents>
+        <content>            <![CDATA[<?xml version="1.0" encoding='UTF-8'?>
+<e>
+    <isPlug>false</isPlug>
+    <pagemeta>
+        <widget id="billnav">
+        </widget>
+        <widget id="main">
+        </widget>
+        <cc>            <CD>{"widgets":[{"comps":[{"id":"grid6295"}],"id":"main"}]}</CD>
+        </cc>
+    </pagemeta>
+</e>
+]]>
+        </content>
+    </contents>
+</xml>

@@ -1,0 +1,38 @@
+﻿/*  
+* 表格控件样式
+* author:denghw
+*/
+.cellsComp
+{
+    display : table-row ;
+    position : absolute ;
+    background-color : bule ;
+    word-wrap : break-word;
+    overflow: auto ;
+}
+
+.cellsComp .cell
+{
+    display : table-row ;
+    position : absolute ;
+    overflow: auto ;
+}
+.cellsComp .cell .cellNormal
+{
+    display : table-cell;
+    position:absolute;
+    overflow:hidden;
+    font-size : 14px ;
+    width : 100px ;
+    height : 30px ;
+}
+
+.cellsComp .cell .cellSelected
+{
+	display : table-cell;
+    position:absolute;
+    background-color : green ;
+}
+
+
+

@@ -1,0 +1,9 @@
+.listview_div{position:relative;overflow:hidden;min-height:50px;*background-color:#ffffff;}
+.listview_div .data_outer_div{position:relative;overflow:auto;left:0px;SCROLLBAR-FACE-COLOR:#EAE9F3;SCROLLBAR-HIGHLIGHT-COLOR:#ffffff;SCROLLBAR-SHADOW-COLOR:#c9d095;SCROLLBAR-3DLIGHT-COLOR:#dbe1b3;SCROLLBAR-ARROW-COLOR:#424854;SCROLLBAR-TRACK-COLOR:#F1F2F4;SCROLLBAR-DARKSHADOW-COLOR:#b5b2b5;}
+.listview_div .tempDiv{border-right:1px solid #999999;color:#666666;position:relative;}
+.listview_div .tempDiv div{position:relative;}
+.listview_div_HEADERROW_HEIGHT{height:31px;}
+.listview_div_ROW_HEIGHT{height:24px;}
+.listview_div_SELECTCOLUM_WIDTH{height:30px;}
+.listview_div_CELL_BOTTOM_BORDER_WIDTH{height:1px;line-height:1px;}
+.whole_listview_div{position:relative;width:100%;height:100%;}

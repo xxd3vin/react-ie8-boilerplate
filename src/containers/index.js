@@ -7,6 +7,8 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 
+import { Grid, Row, Col, Button } from 'react-bootstrap';
+
 // ajax
 import axios from 'axios'
 
@@ -44,7 +46,7 @@ export default class Home extends Component {
         return (
             <div>
                 <i className="icon-phone2"></i>
-                Homepage
+                Homepage<Button>test</Button>
                 <div className={ boxCls } onClick={ this.modal }>
                     Please click box!
                 </div>

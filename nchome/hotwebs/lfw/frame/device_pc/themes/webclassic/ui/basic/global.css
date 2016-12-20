@@ -1,0 +1,130 @@
+img{
+	border:0;
+}
+
+a{
+	color:#0086b2;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#0086b2;
+	text-decoration:underline;
+}
+
+a:active{
+	color:#0086b2;
+	text-decoration:underline;
+}
+
+a:link{
+	color:#0086b2;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#0086b2;
+	text-decoration:underline;
+}
+
+/* body中去掉此样式，解决流式布局下，gird数据量大时，body无滚动条，下面数据看不全问题
+overflow-y:hidden;
+*/
+body 
+{
+	margin:0px;
+	padding:0px;
+	SCROLLBAR-FACE-COLOR: #DBDBDD;
+	SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF;
+	SCROLLBAR-SHADOW-COLOR: #FFFFFF;
+	SCROLLBAR-3DLIGHT-COLOR: #FFFFFF;
+	SCROLLBAR-ARROW-COLOR: #838383;
+	SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF;
+	scrollbar-track-color: #ffffff;
+	font-family:宋体,sans-serif;
+	font-size:12px;
+	color:#333;
+	overflow-y: auto\9;
+}
+
+textarea{
+	font-family:宋体,sans-serif;
+	font-size:12px;
+	color:#333;
+}
+
+input{
+	font-family:宋体,sans-serif;
+	font-size:12px;
+	color:#333;
+	outline:none;/*去掉chrome浏览器输入框黄色边框*/
+}
+
+div{
+	outline:none;/*去掉chrome浏览器Div获取焦点黄色边框*/
+}
+
+@media screen and (-webkit-min-device-pixcel-ratio:0){
+	height:100%;
+	overflow-y:auto;
+}
+
+html {
+	overflow-x: hidden;
+	/*overflow-y: hidden\9;*/  /*ie9中加上此样式，dialog没有纵向滚动条*/ 
+}
+html,body {
+	height:100%;
+}
+
+
+.unselectable{
+	-moz-user-select:none;
+	user-select:none;
+	gn:expression(this.onselectstart=function(){return false;});
+}
+
+.roundcorner{
+	border: 1px solid #d1e2d8;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	/*box-shadow: #E6E6E6 0px 2px 3px;*/
+	-webkit-box-shadow:0px 2px 3px #E6E6E6;
+	-moz-box-shadow:0px 2px 3px #E6E6E6;
+	behavior:url("/lfw/frame/device_pc/themes/webclassic/ui/basic/PIE.htc")\9;
+}
+
+.gridLayout{
+	border : 0px;
+}
+
+.gridLayout td{
+	border : 0px;
+}
+
+.title_font {
+	font-size:14px;
+	font-weight:bold;
+	color:#007dc4;
+}
+
+.table_red{
+	border:1px solid red;
+}
+
+.table_red td{
+	border:1px solid red;
+}
+
+.left_side_style{
+	-webkit-border-top-left-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-top-left-radius:8px;
+	-moz-border-bottom-left-radius:8px;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	behavior:url("/lfw/frame/device_pc/themes/webclassic/ui/basic/PIE.htc")\9;
+	background-color:#f8f9fb;	
+}
+

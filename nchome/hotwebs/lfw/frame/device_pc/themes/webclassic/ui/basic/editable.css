@@ -1,0 +1,80 @@
+.editable{
+	background:	url("/lfw/frame/device_pc/themes/webclassic/ui/basic/images/innerBorder.png");
+	background-position: right bottom;
+	margin:0px;
+	padding:0px;
+	position:relative \9;
+	*position:static;
+}
+ 
+.editable_vPanel{
+	margin:0px;
+	padding:0px;
+}
+
+.editable_hPanel{
+	margin:0px;
+	padding:0px;
+}
+.layout_raw{
+	background:	url('/lfw/frame/device_pc/themes/webclassic/ui/basic/images/rawBorder.png');	background-position: left top;
+}
+.editable_parent{
+	background:	url("/lfw/frame/device_pc/themes/webclassic/ui/basic/images/innerBorder.png");
+	background-position: right bottom;
+	margin:0px;
+	padding:0px;
+	position:relative \9;
+}
+
+
+.edit_component{
+	border: 0 none;
+}
+
+.edit_component_selected{
+	background-color:#DDF6F6;
+	opacity: 0.5;
+	margin:0px;
+	padding:0px;
+	line-height: 23px;
+}
+
+.edit_selected{
+	margin:0px;
+	padding:0px;
+	background:	url("/lfw/frame/device_pc/themes/webclassic/ui/basic/images/innerBorder.png");
+	background-position: right bottom;
+	background-color:#DDF6F6;
+}
+
+.edit_menubar_menuitem{
+}
+
+.edit_gridLayout_cell{
+	background:	url("/lfw/frame/device_pc/themes/webclassic/ui/basic/images/innerBorder.png");
+	background-position: right bottom;
+	border-top : 0px;
+	border-left : 0px;
+}
+
+.edit_gridLayout{
+	background:	url("/lfw/frame/device_pc/themes/webclassic/ui/basic/images/innerBorder.png");
+	background-position: right bottom;
+	margin:0px;
+	padding:0px;
+	position:relative \9;
+}
+
+.edit_gridLayout_selected{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	background-color:#DDF6F6;
+}
+#\$d_main_main_raw{
+	background:url("/lfw/frame/device_pc/themes/webclassic/ui/basic/images/grid.png") repeat scroll 0 0 transparent
+}
+body{
+	background-color:#ededed;
+}

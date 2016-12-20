@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<xml>
+    <exp-text>
+    </exp-text>
+    <show-message>
+    </show-message>
+    <exp-stack>        <![CDATA[]]>
+    </exp-stack>
+    <success>true</success>
+    <contents>
+        <content>            <![CDATA[<?xml version="1.0" encoding='UTF-8'?>
+<e>
+    <isPlug>false</isPlug>
+    <pagemeta>
+        <widget id="billnav">
+        </widget>
+        <widget id="main">
+            <dataset id="yerbill">
+                <data>                    <CD><dataset id="yerbill" focusIndex="-1" currentkey="MASTER_KEY111" editable="false" isCleared="false" randomRowIndex="17">
+    <dsps>
+    </dsps>
+    <rowsets>
+    <rowset pagecount="1" pagesize="15" recordcount="0" pageindex="0" keyvalue="-1">
+    </rowset>
+    <rowset pagecount="1" pagesize="15" recordcount="1" pageindex="0" keyvalue="MASTER_KEY111">
+    <rs pageindex="0" changed="true">
+<r id="0yerbill$17" ><nrm>1001H210000001GUZZT7,。,D02016103100339080,1477843200000,。,。,0001H210000000000IGL,%E7%A2%A7%E6%A1%82%E5%9B%AD%E9%9B%86%E5%9B%A2,0001H21000000000G1C1,%E4%B8%9C%E8%8E%9E%E5%B8%82%E7%A2%A7%E6%A1%82%E5%9B%AD%E6%B5%B7%E7%BA%B3%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%BC%80%E5%8F%91%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8,。,。,F0-Cxx-D35,F0-Cxx-D35,F0-Cxx-D35,。,%E5%94%AE%E6%A5%BC%E7%89%B9%E6%AE%8A%E5%BA%94%E6%94%B6%E5%8D%95,-1,888.00,。,1001H210000001GUZZT7,-1,F0,。,。,。,。,%E4%BF%9D%E5%AD%98,%E8%87%AA%E7%94%B1,。,。,。,。,。,。,。,1002Z0100000000001K1,。,。,。,。,。,。,。,。,。,。,0,0,。</nrm></r>
+</rs>
+    </rowset>
+    </rowsets>
+</dataset>
+</CD>
+                </data>
+            </dataset>
+        </widget>
+        <cc>            <CD>{"widgets":[{"comps":[{"id":"grid6295"}],"id":"main"}]}</CD>
+        </cc>
+        <beforeExec>            <CD>if(pageUI.getWidget('main')){pageUI.getWidget('main').getDataset('yerbill').setChangedContext({"fields":[{"id":"total"}]});}
+</CD>
+        </beforeExec>
+        <exec>            <CD>$("#makebill_waitCount_div").html("46");
+$("#expExpenseBillTypeHtml").html("<li id=\"li_expBillTypeCondi\"  style=\"display:block\"><div class=\"expcondi_type_div\">单据类型</div><div id=\"expense_billType_showDiv_all_link\"  style=\"color:#FFFFFF;background-color:#028FD1\" onclick=\"javascript:queryExpenseBillByType(this,'');\">全部</div><div id=\"expense_billType_showDiv_1_link\"   onclick=\"javascript:queryExpenseBillByType(this,'FIV-Cxx-FP2');\">其他发票&nbsp;2</div><div id=\"expense_billType_showDiv_2_link\"   onclick=\"javascript:queryExpenseBillByType(this,'FP0');\">成本发票&nbsp;2</div><div id=\"expense_billType_showDiv_3_link\"   onclick=\"javascript:queryExpenseBillByType(this,'36D1-Cxx-11');\">付款申请&nbsp;5</div><div id=\"expense_billType_showDiv_4_link\"   onclick=\"javascript:queryExpenseBillByType(this,'261X-Cxx-31');\">差旅费申请单&nbsp;1</div><div id=\"expense_billType_showDiv_5_link\"   onclick=\"javascript:queryExpenseBillByType(this,'D1');\">成本物料采购应付单&nbsp;2</div></li><li id=\"li_expBillTypeCondi\" class=\"\" ><div  style=\"clear:both\"><div class=\"expcondi_type_div\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div id=\"expense_billType_showDiv_6_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0032');\">薪资分摊单&nbsp;2</div><div id=\"expense_billType_showDiv_7_link\"   onclick=\"javascript:queryExpenseBillByType(this,'263X-Cxx-0001');\">借款单&nbsp;1</div><div id=\"expense_billType_showDiv_8_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0001');\">差旅费报销单&nbsp;3</div><div id=\"expense_billType_showDiv_9_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0002');\">员工费用报销单&nbsp;2</div><div id=\"expense_billType_showDiv_10_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0035');\">费用分摊单&nbsp;5</div><div id=\"expense_billType_showDiv_11_link\"   onclick=\"javascript:queryExpenseBillByType(this,'show');\">其他&nbsp;21</div></li><li id=\"li_expBillTypeCondi_display\" style=\"display:none;\"><div  style=\"clear:both\"><div class=\"expcondi_type_div\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div id=\"expense_billType_showDiv_12_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F1-Cxx-D50');\">自制应付单&nbsp;2</div><div id=\"expense_billType_showDiv_13_link\"   onclick=\"javascript:queryExpenseBillByType(this,'264X-Cxx-0038');\">外币差旅报销单&nbsp;1</div><div id=\"expense_billType_showDiv_14_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F2-Cxx-D50');\">自制收款单&nbsp;1</div><div id=\"expense_billType_showDiv_15_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F1-Cxx-D31');\">SSC成本应付单&nbsp;9</div><div id=\"expense_billType_showDiv_16_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F1-Cxx-D34');\">费用采购应付单&nbsp;1</div><div id=\"expense_billType_showDiv_17_link\"   onclick=\"javascript:queryExpenseBillByType(this,'F0-Cxx-D35');\">售楼特殊应收单&nbsp;7</div></li><li id=\"li_expBillTypeCondi_display\" style=\"display:none;\"><div  style=\"clear:both\"></li><li><div  style=\"clear:both;height:8px;\">&nbsp;</div></li>");expBillNavCss();
+$("#expenseAllDataCount").html("共1条数据");
+</CD>
+        </exec>
+    </pagemeta>
+</e>
+]]>
+        </content>
+    </contents>
+</xml>
