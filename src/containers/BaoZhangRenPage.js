@@ -57,8 +57,12 @@ class BaoZhangRenPage extends Component {
   componentWillMount() {
     // Fix DatePicker overlay.
     if (window && window.document) {
-      document.getElementById('$d_billnav_um').style.overflow = null;
-      document.getElementById('$d_billnav_funhtmlcontent').style.overflow = null;
+      if (document.getElementById('$d_billnav_um')) {
+        document.getElementById('$d_billnav_um').style.overflow = null;
+      }
+      if (document.getElementById('$d_billnav_funhtmlcontent')) {
+        document.getElementById('$d_billnav_funhtmlcontent').style.overflow = null;
+      }
     }
   }
 

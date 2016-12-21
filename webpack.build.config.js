@@ -22,10 +22,10 @@ var source_path = path.resolve('./src')
 module.exports = {
   entry: {
     'MyExpBillPortlet': [
-      './src/entry.js'
+      './src/MyExpBillPortlet'
     ],
-    'MyExpBillPortlet2': [
-      './src/PortalDatePicker'
+    'entry': [
+      './src/entry.js'
     ]
   },
   output: {
