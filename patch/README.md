@@ -21,6 +21,7 @@
 ```html
 <!-- fuck UAP start -->
 <link href="/iwebap/css/portalbillquery/tw-bs.3.1.1.css?v=0.13" rel="stylesheet">
+<link href="/iwebap/css/portalbillquery/fuck.css?v=0.13" rel="stylesheet">
 <script src="/iwebap/js/portalbillquery/console-polyfill.js?v=0.13"></script>
 <div id="root" class="tw-bs" style="height: 70px; background-color: rgb(241, 241, 241);"></div>
 <script src="/iwebap/js/portalbillquery/common.js?v=0.13"></script>
@@ -43,6 +44,7 @@
 ```html
 <!-- fuck UAP start -->
 <link href="/iwebap/css/portalbillquery/tw-bs.3.1.1.css?v=0.13" rel="stylesheet">
+<link href="/iwebap/css/portalbillquery/fuck.css?v=0.13" rel="stylesheet">
 <script src="/iwebap/js/portalbillquery/console-polyfill.js?v=0.13"></script>
 <div id="root" class="tw-bs" style="height: 70px; background-color: rgb(241, 241, 241);"></div>
 <script src="/iwebap/js/portalbillquery/common.js?v=0.13"></script>
