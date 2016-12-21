@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const es3ifyPlugin = require('es3ify-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const pkg = require('./package.json');
 
@@ -13,11 +12,6 @@ const banner = `
    URL: ${pkg.homepage}
    License(s): ${pkg.license}
 `;
-
-var autoprefixer = require('autoprefixer')
-
-var webConf = pkg.webConfig
-var source_path = path.resolve('./src')
 
 module.exports = {
   entry: {
@@ -33,21 +27,7 @@ module.exports = {
     filename: '[name].js', // Template based on keys in entry above
     publicPath: '/iwebap/js/portalbillquery/'
   },
-  resolve: {
-      // 别名定义
-      alias: {
-          constants: source_path+'/constants',
-          helpers: source_path+'/helpers',
-          components: source_path+'/components'
-      },
-      extensions: ['', '.js', '.jsx', '.css', '.less'],
-      root: [path.resolve('./src'), path.resolve('./node_modules')]
-  },
-  postcss: function() {
-      return [autoprefixer]
-  },
   plugins: [
-    new ExtractTextPlugin('../../css/portalbillquery/app.css'),
     //new webpack.EvalSourceMapDevToolPlugin(),
     new webpack.optimize.CommonsChunkPlugin('common.js'),
     /**
@@ -80,45 +60,25 @@ module.exports = {
     ])
   ],
   module: {
-      noParse: [
-          // 不转换
-      ],
-      loaders: [
-          // {
-          //     test: /\.html$/,
-          //     loader: 'file?name=[name].[ext]'
-          // },
-          {
-              test: /\.css$/,
-              loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader')
-          },
-          {
-              test: /\.less$/,
-              loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader!less-loader')
-          },
-          {
-              test: /\.(gif|jpg|png)\??.*$/,
-              loader: 'url-loader?limit=10000&name=[name].[ext]'
-          },
-          {
-              test: /\.(woff|svg|eot|ttf)\??.*$/,
-              loader: 'url-loader?limit=10000&name=[name].[ext]'
-          },
-          {
-              test: /\.jsx?$/,
-              exclude: /(node_modules|bower_components)/,
-              loader: 'babel',
-              query: {
-                  presets: ['react', 'es2015', 'stage-2'],
-                  cacheDirectory: true
-              }
-          }
-      ],
-      postLoaders: [
-        {
-          test: /\.js$/,
-          loaders: ['es3ify-loader'],
-        }
-      ]
+    loaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel',
+        include: __dirname
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      },
+      {
+        test: /\.less$/,
+        loader: 'style-loader!css-loader!less-loader'
+      },
+      {
+        test: /\.(png|jpg|bmp)$/,
+        loader: 'url-loader?limit=8192'
+      }
+    ]
   }
 };

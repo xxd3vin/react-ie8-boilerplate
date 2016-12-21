@@ -5,7 +5,7 @@
  */
 import React, { Component } from 'react'
 
-import { Modal } from 'components'
+import { Modal } from '../../components'
 
 export default class App extends Component {
     constructor(props) {
