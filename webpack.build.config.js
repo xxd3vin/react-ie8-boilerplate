@@ -23,6 +23,9 @@ module.exports = {
   entry: {
     'MyExpBillPortlet': [
       './src/entry.js'
+    ],
+    'MyExpBillPortlet2': [
+      './src/PortalDatePicker'
     ]
   },
   output: {
