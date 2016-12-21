@@ -1,0 +1,58 @@
+/* 参照样式 */
+.tw-bs .modal {
+    overflow-y: hidden;
+}
+/* 头 */
+.tw-bs .fuck-header {
+    color: #ffffff;
+    height: 40px;
+    padding: 0 0 0 15px;
+    background: url('v.png') 0 -421px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.fuck-header .modal-title {
+    line-height: 40px;
+}
+/* 体 */
+.tw-bs .fuck-body {
+    padding: 10px 20px;
+}
+.fuck-body .form-group {
+    margin: 10px 0;
+}
+.fuck-body .input-group {
+    width: 93%;
+    float: right;
+}
+.fuck-body label {
+    line-height: 34px;
+    margin-bottom: 0;
+}
+.fuck-body .rc-tree {
+    overflow: auto;
+    overflow-y: scroll;
+    max-height: 280px;
+}
+.fuck-body .rc-tree::-webkit-scrollbar {
+    background: #ededed;
+}
+.fuck-body .rc-tree::-webkit-scrollbar-track {
+
+}
+.fuck-body .rc-tree::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+    border-radius: 3px;
+}
+/* 尾 */
+.tw-bs .fuck-footer {
+    margin-top: 0;
+}
+.fuck-footer .btn {
+    width: 80px;
+    height: 30px;
+    padding: 0;
+}
+.fuck-footer .btn-primary {
+    /*background: url("v.png") 0 67px;*/
+}

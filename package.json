@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "clean": "rimraf assets",
+    "clean": "rimraf patch/replacement/hotwebs/iwebap",
     "start": "node webpack-dev-server --config webpack.dev.config.js",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.build.config.js --profile --progress",
     "publish": "webpack --config webpack.build.config.js -p",

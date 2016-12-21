@@ -18,6 +18,7 @@ nunjucks.configure('views', {
 
 app.use('/', express.static(path.join(__dirname + '/client')));
 app.use('/iwebap/js/portalbillquery', express.static(path.join(__dirname + '/patch/replacement/hotwebs/iwebap/js/portalbillquery')));
+app.use('/iwebap/css/portalbillquery', express.static(path.join(__dirname + '/patch/replacement/hotwebs/iwebap/css/portalbillquery')));
 
 app.use('/iwebap', express.static(__dirname + '/client/nchome/hotwebs/iwebap'));
 app.use(require('./server/routes/fakeNC')());

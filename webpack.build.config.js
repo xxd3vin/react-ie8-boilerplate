@@ -21,13 +21,14 @@ var source_path = path.resolve('./src')
 
 module.exports = {
   entry: {
-    'js/portalbillquery/MyExpBillPortlet': [
+    'MyExpBillPortlet': [
       './src/entry.js'
     ]
   },
   output: {
-    path: path.join(__dirname, 'patch/replacement/hotwebs/iwebap'),
-    filename: '[name].js' // Template based on keys in entry above
+    path: path.join(__dirname, 'patch/replacement/hotwebs/iwebap/js/portalbillquery'),
+    filename: '[name].js', // Template based on keys in entry above
+    publicPath: '/iwebap/js/portalbillquery/'
   },
   resolve: {
       // 别名定义
@@ -43,9 +44,9 @@ module.exports = {
       return [autoprefixer]
   },
   plugins: [
-    new ExtractTextPlugin('app.[hash].css'),
+    new ExtractTextPlugin('../../css/portalbillquery/app.css'),
     //new webpack.EvalSourceMapDevToolPlugin(),
-    new webpack.optimize.CommonsChunkPlugin(/*path=*/'js/portalbillquery/common.js'),
+    new webpack.optimize.CommonsChunkPlugin('common.js'),
     /**
      * This plugin assigns the module and chunk ids by occurence count. What this
      * means is that frequently used IDs will get lower/shorter IDs - so they become
@@ -71,7 +72,7 @@ module.exports = {
     new CopyWebpackPlugin([
       {
         from: 'client/nchome/hotwebs/iwebap'
-        //,to: ''
+        ,to: path.join(__dirname, 'patch/replacement/hotwebs/iwebap')
       }
     ])
   ],
